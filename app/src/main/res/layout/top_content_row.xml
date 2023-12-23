@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/white_bg"
+    android:maxHeight="600dp"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:id="@+id/cnvLaout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backImageRow"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="@id/shayriNameRow"
+                app:layout_constraintEnd_toEndOf="@+id/shayriNameRow"
+                app:layout_constraintStart_toStartOf="@+id/shayriNameRow"
+                app:layout_constraintTop_toTopOf="@+id/shayriNameRow" />
+
+            <TextView
+                android:id="@+id/shayriNameRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:minHeight="200dp"
+                android:padding="5dp"
+                android:paddingTop="-400dp"
+                android:text="Great you are adding new Topic"
+                android:textColor="#E8E6E6"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/prevText"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:minHeight="200dp"
+                app:layout_constraintBottom_toBottomOf="@+id/shayriNameRow"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/shayriNameRow" />
+
+            <TextView
+                android:id="@+id/nextText"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center_vertical"
+                android:minHeight="200dp"
+                app:layout_constraintBottom_toBottomOf="@+id/shayriNameRow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/shayriNameRow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/backImageRow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:paddingRight="30dp"
+                    android:text="All ~ Shayri"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#F4F4F4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/likeRow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:paddingBottom="3dp"
+            android:src="@drawable/heart"
+            app:tint="#F90101"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/shareRow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:paddingBottom="3dp"
+            android:src="@drawable/share"
+            app:tint="#F90101"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/downRow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:paddingBottom="3dp"
+            android:src="@drawable/download"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/copyRow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:paddingBottom="3dp"
+            android:src="@drawable/copy"
+            app:tint="#F90101"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+</LinearLayout>

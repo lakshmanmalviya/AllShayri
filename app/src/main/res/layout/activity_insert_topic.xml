@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.InsertTopic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/topicName2324234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="Great you are adding new Topic"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/topicName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ad_bg"
+                android:ems="10"
+                android:hint="Enter the topic name"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#E7C9C9"
+                android:textColorHint="#C6C4C4"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/insertTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="insert"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

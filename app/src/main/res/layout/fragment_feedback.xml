@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.Feedback">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text3453"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:text="Thanks for supporting us"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ad_bg"
+                android:ems="10"
+                android:hint="Mention your name | email | phone"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#E7C9C9"
+                android:textColorHint="#C6C4C4"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/userMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ad_bg"
+                android:ems="10"
+                android:hint="Mention your kind message to us."
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#E7C9C9"
+                android:textColorHint="#C6C4C4"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/insertFeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="send"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

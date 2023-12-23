@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.InsertOps">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/insertTopics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="Insert The Home Topic"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/insertForYouTopics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="Insert The ForYou Topic"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/insertBacks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="Insert The Background Image"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/insertContents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="Add Content to a Topic"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/insertImages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ad_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:padding="4dp"
+                android:text="Add Images / Photos"
+                android:textAlignment="center"
+                android:textColor="#E8E6E6"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

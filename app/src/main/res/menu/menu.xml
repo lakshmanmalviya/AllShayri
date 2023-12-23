@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/notes"
+    android:icon="@android:drawable/checkbox_on_background"
+    android:title="Notes"/>
+<item
+    android:id="@+id/photo"
+    android:icon="@drawable/common_google_signin_btn_icon_dark_focused"
+    android:title="Photo"/>
+<item
+    android:id="@+id/setting"
+    android:icon="@android:drawable/ic_media_ff"
+    android:title="Settings"/>
+
+</menu>
